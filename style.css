@@ -71,3 +71,24 @@ img {
 .clear {
   clear: both;
 }
+
+
+
+@media screen and (max-width: 420px) {
+    body{
+        margin: 0;
+    }
+
+    img{
+        height: 100px;
+    }
+
+    .row {
+      width: 420px;
+      margin: 20px 0 0 0;
+    }
+
+    #why .row>.first, #why .row>.second, #why .row>.third {
+        margin-top: 40px;
+    }
+}
